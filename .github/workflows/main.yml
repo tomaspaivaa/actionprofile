@@ -29,7 +29,7 @@ jobs:
         run: mvn install
 
       - name: Upload artifact
-        uses: actions/upload-artifact@4
+        uses: actions/upload-artifact@3.0
         with:
           name: vprofile-app
           path: target/*.war
